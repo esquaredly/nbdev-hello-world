@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://esquaredly.github.io',
                 'git_url': 'https://github.com/esquaredly/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.Hello': { 'nbdev_hello_world.Hello.foo': ('core.html#foo', 'nbdev_hello_world/Hello.py'),
+                                         'nbdev_hello_world.Hello.say_hello': ('core.html#say_hello', 'nbdev_hello_world/Hello.py')},
+            'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
